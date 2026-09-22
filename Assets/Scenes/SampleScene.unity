@@ -456,7 +456,6 @@ GameObject:
   m_Component:
   - component: {fileID: 877372398}
   - component: {fileID: 877372397}
-  - component: {fileID: 877372396}
   m_Layer: 0
   m_Name: 2_0 (2)
   m_TagString: Untagged
@@ -464,20 +463,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &877372396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877372395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a8da2e042ce29459bfb0a8238c9ba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxEff
-  cam: {fileID: 1369013599}
-  parallaxEffect: 0.8
 --- !u!212 &877372397
 SpriteRenderer:
   serializedVersion: 3
@@ -563,7 +548,6 @@ GameObject:
   m_Component:
   - component: {fileID: 877782735}
   - component: {fileID: 877782737}
-  - component: {fileID: 877782736}
   m_Layer: 0
   m_Name: 1_0 (1)
   m_TagString: Untagged
@@ -586,20 +570,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 542318970}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &877782736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877782734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a8da2e042ce29459bfb0a8238c9ba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxEff
-  cam: {fileID: 1369013599}
-  parallaxEffect: 1
 --- !u!212 &877782737
 SpriteRenderer:
   serializedVersion: 3
@@ -670,7 +640,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1265121154}
   - component: {fileID: 1265121156}
-  - component: {fileID: 1265121155}
   m_Layer: 0
   m_Name: 1_0 (2)
   m_TagString: Untagged
@@ -693,20 +662,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 542318970}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1265121155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265121153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a8da2e042ce29459bfb0a8238c9ba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxEff
-  cam: {fileID: 1369013599}
-  parallaxEffect: 1
 --- !u!212 &1265121156
 SpriteRenderer:
   serializedVersion: 3
@@ -777,7 +732,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1306719227}
   - component: {fileID: 1306719226}
-  - component: {fileID: 1306719225}
   m_Layer: 0
   m_Name: 4_0 (2)
   m_TagString: Untagged
@@ -785,20 +739,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1306719225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1306719224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a8da2e042ce29459bfb0a8238c9ba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxEff
-  cam: {fileID: 1369013599}
-  parallaxEffect: 0.3
 --- !u!212 &1306719226
 SpriteRenderer:
   serializedVersion: 3
@@ -884,7 +824,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1319432167}
   - component: {fileID: 1319432166}
-  - component: {fileID: 1319432165}
   m_Layer: 0
   m_Name: 4_0 (1)
   m_TagString: Untagged
@@ -892,20 +831,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1319432165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319432164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a8da2e042ce29459bfb0a8238c9ba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxEff
-  cam: {fileID: 1369013599}
-  parallaxEffect: 0.3
 --- !u!212 &1319432166
 SpriteRenderer:
   serializedVersion: 3
@@ -1161,7 +1086,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1576640844}
   - component: {fileID: 1576640843}
-  - component: {fileID: 1576640842}
   m_Layer: 0
   m_Name: 2_0 (1)
   m_TagString: Untagged
@@ -1169,20 +1093,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1576640842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576640841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a8da2e042ce29459bfb0a8238c9ba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxEff
-  cam: {fileID: 1369013599}
-  parallaxEffect: 0.8
 --- !u!212 &1576640843
 SpriteRenderer:
   serializedVersion: 3
@@ -1268,7 +1178,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1715829210}
   - component: {fileID: 1715829209}
-  - component: {fileID: 1715829208}
   m_Layer: 0
   m_Name: 3_0 (2)
   m_TagString: Untagged
@@ -1276,20 +1185,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1715829208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715829207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a8da2e042ce29459bfb0a8238c9ba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxEff
-  cam: {fileID: 1369013599}
-  parallaxEffect: 0.6
 --- !u!212 &1715829209
 SpriteRenderer:
   serializedVersion: 3
@@ -1482,7 +1377,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1852633328}
   - component: {fileID: 1852633327}
-  - component: {fileID: 1852633326}
   m_Layer: 0
   m_Name: 3_0 (1)
   m_TagString: Untagged
@@ -1490,20 +1384,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1852633326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852633325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a8da2e042ce29459bfb0a8238c9ba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParallaxEff
-  cam: {fileID: 1369013599}
-  parallaxEffect: 0.6
 --- !u!212 &1852633327
 SpriteRenderer:
   serializedVersion: 3
